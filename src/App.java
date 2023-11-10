@@ -1,4 +1,6 @@
-import helpers.ConsoleColours;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class App
 {
@@ -13,6 +15,7 @@ public class App
          if (q1.equalsIgnoreCase("yes") ) {
         System.out.println("This is the music list. ");
         Songs  ObsessedWithYou = new Songs("Obsessed With You", "Central Cee", 121071982);
+        ObsessedWithYou.print();
         Songs  Doja = new Songs("Doja", "Central Cee", 136407811);
         Songs LetGO = new Songs("Let Go", "Central Cee", 59837163);
         Songs Khabib = new Songs("Khabib", "Central Cee", 29048875);
@@ -40,7 +43,7 @@ public class App
          songs.add(Fraud);
          songs.add(OneUp);
          songs.add(Loading);
-         songs.add(Me&You);
+         songs.add(MeAndYou);
          songs.add(Chapters);
 
 int id = 1;
